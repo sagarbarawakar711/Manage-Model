@@ -1,0 +1,38 @@
+HELP.md
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+<<<<<<< HEAD
+### Log Files
+*.log
+=======
+
+>>>>>>> b8a19308f34f2ac7dc9eb9c8bd27a9d06212989d
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+<<<<<<< HEAD
+
+=======
+*.class
+>>>>>>> b8a19308f34f2ac7dc9eb9c8bd27a9d06212989d
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+### VS Code ###
+.vscode/

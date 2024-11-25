@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections:connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:connections="http://www.ibm.com/websphere/wdo/connections">
+  <connection id="Postgres">
+    <development xsi:type="connections:rsc-live-connection" id="Postgres_dev" name="Postgres"/>
+    <runtime xsi:type="connections:driver-manager-connection" auto-deploy="true" class-location="C:\Users\s1590\.m2\repository\org\postgresql\postgresql\42.2.5\postgresql-42.2.5.jar" id="Postgres_runtime" class-name="org.postgresql.Driver" url="jdbc:postgresql://localhost:5432/samdb" userid="samdbuser"/>
+  </connection>
+</connections:connections>
